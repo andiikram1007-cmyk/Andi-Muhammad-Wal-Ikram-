@@ -584,25 +584,202 @@
 
 <script>
 
-/* ======================
+/* =========================
    SERUNI
-====================== */
+========================= */
 
 const seruni =
 document.querySelector(".seruni");
 
-seruni.addEventListener("click", () => {
+seruni.addEventListener("click", ()=>{
 
-    speechSynthesis.cancel();
+  speechSynthesis.cancel();
 
-    const text =
-    new SpeechSynthesisUtterance(
+  const text =
+  new SpeechSynthesisUtterance(
+
     "Pantai Seruni terkenal dengan sunset indah, suasana santai, pemandangan laut yang cantik, pusat kuliner, serta area olahraga."
-    );
 
-    text.lang = "id-ID";
+  );
 
-    speechSynthesis.speak(text);
+  text.lang = "id-ID";
+
+  speechSynthesis.speak(text);
+
+});
+
+
+/* =========================
+   EREMERASA
+========================= */
+
+const eremerasa =
+document.querySelector(".eremerasa");
+
+eremerasa.addEventListener("click", ()=>{
+
+  speechSynthesis.cancel();
+
+  const text =
+  new SpeechSynthesisUtterance(
+
+    "Eremerasa memiliki pegunungan hijau,udara dingin, dan panorama alam yang sejuk. Serta memiliki permandian yang cukup terkenal."
+
+  );
+
+  text.lang = "id-ID";
+
+  speechSynthesis.speak(text);
+
+});
+
+
+/* =========================
+   LOKA
+========================= */
+
+const loka =
+document.querySelector(".loka");
+
+loka.addEventListener("click", ()=>{
+
+  speechSynthesis.cancel();
+
+  const text =
+  new SpeechSynthesisUtterance(
+
+    "Loka terkenal sebagai kawasan wisata alam dengan suasana asri, udara segar, dan hamparan kebun stroberi."
+
+  );
+
+  text.lang = "id-ID";
+
+  speechSynthesis.speak(text);
+
+});
+
+
+/* =========================
+   MARINA
+========================= */
+
+const marina =
+document.querySelector(".marina");
+
+marina.addEventListener("click", ()=>{
+
+  speechSynthesis.cancel();
+
+  const text =
+  new SpeechSynthesisUtterance(
+
+    "Pantai Marina terkenal dengan pasir putih,suasana santai, dan pemandangan laut yang indah."
+
+  );
+
+  text.lang = "id-ID";
+
+  speechSynthesis.speak(text);
+
+});
+
+
+/* =========================
+   BISSAPPU
+========================= */
+
+const bissappu =
+document.querySelector(".bissappu");
+
+bissappu.addEventListener("click", ()=>{
+
+  speechSynthesis.cancel();
+
+  const text =
+  new SpeechSynthesisUtterance(
+
+    "Air Terjun Bissappu terkenal dengan suasana alam yang sejuk, air yang jernih, dan panorama pegunungan yang indah."
+
+  );
+
+  text.lang = "id-ID";
+
+  speechSynthesis.speak(text);
+
+});
+
+
+/* =========================
+   ULU ERE
+========================= */
+
+const uluere =
+document.querySelector(".uluere");
+
+uluere.addEventListener("click", ()=>{
+
+  speechSynthesis.cancel();
+
+  const text =
+  new SpeechSynthesisUtterance(
+
+    "Muntea HighLand terkenal dengan udara dingin,pemandangan pegunungan yang indah,hamparan alam hijau,serta suasana tenang dan sejuk."
+
+  );
+
+  text.lang = "id-ID";
+
+  speechSynthesis.speak(text);
+
+});
+
+
+/* =========================
+   GANTARANG KEKE
+========================= */
+
+const gantarang =
+document.querySelector(".gantarang");
+
+gantarang.addEventListener("click", ()=>{
+
+  speechSynthesis.cancel();
+
+  const text =
+  new SpeechSynthesisUtterance(
+
+    "Rumah Kebun terkenal sebagai tempat wisata kuliner dengan kawasan wisata alam,panorama pegunungan,udara sejuk,serta spot foto yang menarik."
+
+  );
+
+  text.lang = "id-ID";
+
+  speechSynthesis.speak(text);
+
+});
+
+
+/* =========================
+   TOMPOBULU / ERBOL
+========================= */
+
+const erbol =
+document.querySelector(".erbol");
+
+erbol.addEventListener("click", ()=>{
+
+  speechSynthesis.cancel();
+
+  const text =
+  new SpeechSynthesisUtterance(
+
+    "Permandian Erbol terkenal dengansuasana pegunungan yang sejuk,hamparan alam hijau,udara segar,serta panorama yang indah untuk wisata alam."
+
+  );
+
+  text.lang = "id-ID";
+
+  speechSynthesis.speak(text);
 
 });
 
